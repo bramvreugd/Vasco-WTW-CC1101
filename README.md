@@ -1,6 +1,6 @@
 # Vasco-WTW-CC1101
-This code can control the Vasco T350 and T500 ventilation systems.
-Other systems from vasco may also work but I only tested it on a T500.
+This code can control the Vasco T350 and T500 ventilation systems (heat exchanger or dutch: WTW).
+Other systems from Vasco may also work but I only tested it on a T500.
 
 You can send serial commands to the ESP which translates it into Vasco commands using a cc1101 chip.
 
