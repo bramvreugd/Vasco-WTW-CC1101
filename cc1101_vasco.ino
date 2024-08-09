@@ -4,15 +4,17 @@
 //based on code by https://github.com/LSatan/SmartRC-CC1101-Driver-Lib
 //by Little_S@tan
 // vasco changes by Bram Vreugdenhil https://github.com/bramvreugd/Vasco-WTW-CC1101
-//
 // Not all codes work very well. Sometime you need to send it a couple of times.
 // I primarly use the auto command to enable the 0-10v input.
 
 #include <ELECHOUSE_CC1101_SRC_DRV.h>
+#include <ESP8266WiFi.h>
+
 unsigned long lastTime;
 unsigned long interval = 1000;
 
 void setup(){
+   WiFi.mode(WIFI_OFF);
 
     Serial.begin(115200);
     Serial.println("");
