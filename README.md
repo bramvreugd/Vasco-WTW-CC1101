@@ -18,4 +18,7 @@ key d displays if the auto sending is on or off. <br>
 
 You need to install the cc1101 library.
 
+<br>
+Maybe next version will include a MQTT connection.
+
 
