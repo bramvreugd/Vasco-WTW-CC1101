@@ -15,10 +15,15 @@ key b the auto command is send every minute<br>
    I use this because my WTW forgets the normal auto after a couple of minutes.<br>
 key c disables sending the auto command <br>
 key d displays if the auto sending is on or off. <br>
-
-You need to install the cc1101 library.
+<br>
+You need to install the cc1101 library.<br>
+<br>
+When the compiled with autoMode=1 this program turns on the auto mode every 60 seconds.<br>
+In the automatic mode the heat exchanger listens to the 0-10v input or an optional Vasco co2 device.<br>
+I use the heat exchanger with and zigbee device 0-10v device.<br>
+With that zigbee device the ventilation speed of the heatexchanger can be controlled from about 14% to 100%.<br>
 
 <br>
-Maybe next version will include a MQTT connection.
+Maybe next version will include a MQTT connection. Does anyone need it?
 
 
